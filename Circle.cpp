@@ -10,7 +10,7 @@ void Circle::read(std::istream& is) {
 	std::cin >> args[0];
 }
 void Circle::print(std::ostream& os) const {
-	std::cout << "Ðàäèóñ: " << args[0] << "\nÏëîùàäü: " << getSquare() << "\nÏåðèìåòð: " << getPerimeter() << '\n';
+	std::cout << "Ð Ð°Ð´Ð¸ÑƒÑ: " << args[0] << "\nÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ: " << getSquare() << "\nÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€: " << getPerimeter() << '\n';
 }
 std::istream& operator>>(std::istream& is, Circle c) {
 	c.read(is);
