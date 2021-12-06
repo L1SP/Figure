@@ -10,7 +10,7 @@ void Rect::read(std::istream& is) {
 	is >> args[0] >> args[1];
 }
 void Rect::print(std::ostream& os) const {
-	os << "Øèðèíà: " << args[0] << "\nÂûñîòà: " << args[1] << "\nÏëîùàäü: " << getSquare() << "\nÏåðèìåòð: " << getPerimeter() << '\n';
+	os << "Ð¨Ð¸Ñ€Ð¸Ð½Ð°: " << args[0] << "\nÐ’Ñ‹ÑÐ¾Ñ‚Ð°: " << args[1] << "\nÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ: " << getSquare() << "\nÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€: " << getPerimeter() << '\n';
 }
 std::istream& operator>>(std::istream& is, Rect r) {
 	r.read(is);
