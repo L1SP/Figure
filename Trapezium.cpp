@@ -25,8 +25,8 @@ void Trapezium::read(std::istream& is) {
 	is >> args[0] >> args[1] >> args[2] >> args[3];
 }
 void Trapezium::print(std::ostream& os) const {
-	os << "Ïåğâîå îñíîâàíèå: " << args[0] << "\nÂòîğîå îñíîâàíèå: " << args[1] << "\nÏåğâàÿ áîêîâàÿ ñòîğîíà: " << args[2] << '\n';
-	os << "Âòîğàÿ áîêîâàÿ ñòîğîíà: " << args[3]<<"\nÏëîùàäü: "<<getSquare()<<"\nÏåğèìåòğ: "<<getPerimeter()<<'\n';
+	os << "ĞŸĞµÑ€Ğ²Ğ¾Ğµ Ğ¾ÑĞ½Ğ¾Ğ²Ğ°Ğ½Ğ¸Ğµ: " << args[0] << "\nĞ’Ñ‚Ğ¾Ñ€Ğ¾Ğµ Ğ¾ÑĞ½Ğ¾Ğ²Ğ°Ğ½Ğ¸Ğµ: " << args[1] << "\nĞŸĞµÑ€Ğ²Ğ°Ñ Ğ±Ğ¾ĞºĞ¾Ğ²Ğ°Ñ ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ğ°: " << args[2] << '\n';
+	os << "Ğ’Ñ‚Ğ¾Ñ€Ğ°Ñ Ğ±Ğ¾ĞºĞ¾Ğ²Ğ°Ñ ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ğ°: " << args[3]<<"\nĞŸĞ»Ğ¾Ñ‰Ğ°Ğ´ÑŒ: "<<getSquare()<<"\nĞŸĞµÑ€Ğ¸Ğ¼ĞµÑ‚Ñ€: "<<getPerimeter()<<'\n';
 }
 std::istream& operator>>(std::istream& is, Trapezium c) {
 	c.read(is);
